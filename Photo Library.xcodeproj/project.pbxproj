@@ -10,9 +10,9 @@
 		BBCF99EF248248F30092039D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCF99EE248248F30092039D /* AppDelegate.swift */; };
 		BBCF99F1248248F30092039D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCF99F0248248F30092039D /* SceneDelegate.swift */; };
 		BBCF99F3248248F30092039D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCF99F2248248F30092039D /* ViewController.swift */; };
-		BBCF99F6248248F30092039D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCF99F4248248F30092039D /* Main.storyboard */; };
 		BBCF99F8248248F90092039D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCF99F7248248F90092039D /* Assets.xcassets */; };
 		BBCF99FB248248F90092039D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCF99F9248248F90092039D /* LaunchScreen.storyboard */; };
+		BBCF9A032486E04F0092039D /* For Cell Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCF9A022486E04F0092039D /* For Cell Constraint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		BBCF99EE248248F30092039D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBCF99F0248248F30092039D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BBCF99F2248248F30092039D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BBCF99F5248248F30092039D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBCF99F7248248F90092039D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBCF99FA248248F90092039D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBCF99FC248248F90092039D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCF9A022486E04F0092039D /* For Cell Constraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "For Cell Constraint.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				BBCF99EE248248F30092039D /* AppDelegate.swift */,
 				BBCF99F0248248F30092039D /* SceneDelegate.swift */,
 				BBCF99F2248248F30092039D /* ViewController.swift */,
-				BBCF99F4248248F30092039D /* Main.storyboard */,
+				BBCF9A022486E04F0092039D /* For Cell Constraint.swift */,
 				BBCF99F7248248F90092039D /* Assets.xcassets */,
 				BBCF99F9248248F90092039D /* LaunchScreen.storyboard */,
 				BBCF99FC248248F90092039D /* Info.plist */,
@@ -127,7 +127,6 @@
 			files = (
 				BBCF99FB248248F90092039D /* LaunchScreen.storyboard in Resources */,
 				BBCF99F8248248F90092039D /* Assets.xcassets in Resources */,
-				BBCF99F6248248F30092039D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBCF9A032486E04F0092039D /* For Cell Constraint.swift in Sources */,
 				BBCF99F3248248F30092039D /* ViewController.swift in Sources */,
 				BBCF99EF248248F30092039D /* AppDelegate.swift in Sources */,
 				BBCF99F1248248F30092039D /* SceneDelegate.swift in Sources */,
@@ -147,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BBCF99F4248248F30092039D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BBCF99F5248248F30092039D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BBCF99F9248248F90092039D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
